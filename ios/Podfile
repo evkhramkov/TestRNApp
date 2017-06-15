@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestRNApp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TestRNApp
+  pod 'RNMobileCenter', '~> 0.5.0'
+  pod 'MobileCenter', '~> 0.9.0'
+
+  
+
+  target 'TestRNAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'TestRNApp-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TestRNApp-tvOS
+
+  target 'TestRNApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
